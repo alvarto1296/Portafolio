@@ -1,0 +1,20 @@
+<header>
+    <ul>
+      <li><a [routerLink]="['/sobre-mi']" [routerLinkActive]="['actived']">sobre mi</a></li>
+      <li><a [routerLink]="['/proyectos']" [routerLinkActive]="['actived']">proyectos</a></li>
+      <li id="logo"><a href="">AF</a></li>
+      <li><a [routerLink]="['/crear-proyectos']" [routerLinkActive]="['actived']">crear-proyecto</a></li>
+      <li><a [routerLink]="['/contacto']" [routerLinkActive]="['actived']">contacto</a></li>
+    </ul>
+</header>
+
+<section id="content">
+  <router-outlet></router-outlet>
+</section>
+
+
+<footer>
+  Pie de pagina &copy;
+</footer>
+
+
