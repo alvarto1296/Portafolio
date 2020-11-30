@@ -11,7 +11,7 @@ export class AboutComponent implements OnInit {
   public subtitle: string;
   public web: string;
   constructor() { 
-    this.title = "Alvaro Flores";
+    this.title = "Alvaro Flores Pruebita";
     this.subtitle = "Desarrollo Web";
     this.web = "alvarto1296@gmail.com";
   }
